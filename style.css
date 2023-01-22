@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	margin: 0;
+}
+hr.rounded {
+	border-top: 2px solid #bbb;
+  	border-radius: 3px;
+	margin: 0px 10% 0px 10%;
+}
+
+.header {
+	font-family: 'Josefin Sans';
+	padding: 15%;
+	padding-left: 0%;
+	text-align: center;
+	background-image: url("robot.jpeg");
+	background-size: 120%;
+	background-position-y: center;
+	background-position-x: 75%;
+/* 	background: #fc5a5a; */
+	color: white;
+}
+
+.header h1 {
+	padding-left: 50%;
+	margin-bottom: 0.5em;
+	font-size: 5em;
+}
+.header h2 {
+	padding-left: 50%;
+}
+
+.navbar {
+	background-color: #b93131;
+	overflow: hidden;
+	padding-left: 10%;
+	padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar a {
+	color: white;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 14px 20px 14px 20px;
+}
+
+.navbar a.right {
+	float: right;
+}
+
+.navbar a:hover {
+	background-color: #ccc;
+	color: black;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+	.side {
+		background-color: white;
+		flex: 100%;
+		padding: 20px;
+	}
+	.main {
+		flex: 100%;
+		padding:20px;
+		background-color: white;
+	}
+}
+@media only screen and (min-width: 768px) {
+   .side {
+		background-color: #f1f1f1;
+		flex: 30%;
+		padding: 20px;
+	}
+	.main {
+		flex: 70%;
+		padding:20px;
+		background-color: white;
+	}
+} 
+
+
+
+
+.imgvertical {
+	width: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+
+.fill {
+	object-fit: contain;
+	width: 100%;
+}
+
+.skills h1 {
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 56.25%;
+}
+.ifram-fill {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
